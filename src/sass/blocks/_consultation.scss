@@ -1,0 +1,19 @@
+.consultation {
+    min-height: 680px;
+    padding: 100px 0px 92px 0px;
+    background: url(../../img/run_bg.jpeg) center (center/cover) no-repeat;
+    &__descr {
+        color: #ffffff;
+        font-weight: 500;
+        font-size: 20px;
+    }
+    .error {
+        border: 1px solid red;
+    }
+    label.error {
+        color: #ffffff;
+        border: none;
+        text-align: center;
+        margin-bottom: 15px;
+    }
+}
